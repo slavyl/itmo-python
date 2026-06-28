@@ -16,4 +16,4 @@ employee_code = [
 sales = list(zip(products, prices, employee_code))
 for sale in sales:       #каждый элемент с новой строоки
     print(sale)
-#print(*sales, sep="\n") #еще способ вывода каждого элемента с новой строки (тогда 17 строку закомментировать
+#print(*sales, sep="\n") #еще способ вывода каждого элемента с новой строки (тогда 17 строку закомментировать)
